@@ -5,7 +5,7 @@
       "type": "debugpy",
       "request": "launch",
       "name": "Programming the IoT - CDA Implementation",
-      "program": "./piot/cda/app/ConstrainedDeviceApp.py",
+      "program": "./programmingtheiot/cda/app/ConstrainedDeviceApp.py",
       "console": "integratedTerminal",
       "justMyCode": false
     }
