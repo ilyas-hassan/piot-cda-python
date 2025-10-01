@@ -2,12 +2,16 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Programming the IoT - CDA (module)",
       "type": "debugpy",
       "request": "launch",
-      "name": "Programming the IoT - CDA Implementation",
-      "program": "./programmingtheiot/cda/app/ConstrainedDeviceApp.py",
+      "module": "programmingtheiot.cda.app.ConstrainedDeviceApp",
+      "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
-      "justMyCode": false
+      "justMyCode": false,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
     }
   ]
 }
